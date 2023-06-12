@@ -518,7 +518,7 @@
           imgUrl: 'assets/images/icons/skills/javascript.png',
           title: 'JavaScript'
         }, {
-          imgUrl: '../assets/images/icons/skills/c-sharp.png',
+          imgUrl: 'assets/images/icons/skills/c-sharp.png',
           title: 'C#'
         }, {
           imgUrl: 'assets/images/icons/skills/sql.png',
@@ -547,41 +547,41 @@
         }],
         // list of tools items to loop through it
         toolsItems: [{
-          imgUrl: 'https://via.placeholder.com/48',
-          title: 'Ajax'
+          imgUrl: 'assets/images/icons/tools/visualstudio.png',
+          title: 'Visual Studio'
         }, {
-          imgUrl: 'https://via.placeholder.com/48',
-          title: 'Gulp'
-        }, {
-          imgUrl: 'https://via.placeholder.com/48',
-          title: 'Webpack'
-        }, {
-          imgUrl: 'assets/images/skills/git.png',
-          title: 'Git (Github)'
-        }, {
-          imgUrl: 'https://via.placeholder.com/48',
-          title: 'Npm'
-        }, {
-          imgUrl: 'https://via.placeholder.com/48',
-          title: 'Command Line'
-        }, {
-          imgUrl: 'https://via.placeholder.com/48',
+          imgUrl: 'assets/images/icons/tools/vs-code.png',
           title: 'VS Code'
         }, {
-          imgUrl: 'https://via.placeholder.com/48',
+          imgUrl: 'assets/images/icons/tools/SQLserver.png',
+          title: 'MS SQL Server'
+        }, {
+          imgUrl: 'assets/images/icons/tools/pg-admin.png',
+          title: 'PG Admin'
+        }, {
+          imgUrl: 'assets/images/icons/tools/gihub.png',
+          title: 'Git (Github)'
+        }, {
+          imgUrl: 'assets/images/icons/tools/npm.png',
+          title: 'Npm'
+        }, {
+          imgUrl: 'assets/images/icons/tools/command.png',
+          title: 'Command Line'
+        }, {
+          imgUrl: 'assets/images/icons/tools/trello.png',
           title: 'Trello'
         }, {
-          imgUrl: 'https://via.placeholder.com/48',
-          title: 'ClickUp'
+          imgUrl: 'assets/images/icons/tools/git.png',
+          title: 'Git'
         }, {
-          imgUrl: 'https://via.placeholder.com/48',
-          title: 'Slack'
+          imgUrl: 'assets/images/icons/skills/postman.png',
+          title: 'Postman'
         }, {
-          imgUrl: 'https://via.placeholder.com/48',
-          title: 'Photoshop'
+          imgUrl: 'assets/images/icons/skills/jira.png',
+          title: 'Jira'
         }, {
-          imgUrl: 'https://via.placeholder.com/48',
-          title: 'Adobe XD'
+          imgUrl: 'assets/images/icons/skills/pycharm.png',
+          title: 'PyCharm'
         }],
         // list of experience items to loop through it
         experienceItems: [{
