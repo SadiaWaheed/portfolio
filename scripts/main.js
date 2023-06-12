@@ -509,40 +509,40 @@
         skillsType: '',
         // list of skills items to loop through it
         skillsItems: [{
-          imgUrl: '../assets/images/icons/skills/html5.png',
+          imgUrl: 'assets/images/icons/skills/html5.png',
           title: 'HTML5'
         }, {
-          imgUrl: '../assets/images/icons/skills/css3.png',
+          imgUrl: 'assets/images/icons/skills/css3.png',
           title: 'CSS3'
         }, {
-          imgUrl: '../assets/images/icons/skills/javascript.png',
+          imgUrl: 'assets/images/icons/skills/javascript.png',
           title: 'JavaScript'
         }, {
           imgUrl: '../assets/images/icons/skills/c-sharp.png',
           title: 'C#'
         }, {
-          imgUrl: '../assets/images/icons/skills/sql.png',
+          imgUrl: 'assets/images/icons/skills/sql.png',
           title: 'SQL'
         }, {
-          imgUrl: '../assets/images/icons/skills/bootstrap.png',
+          imgUrl: 'assets/images/icons/skills/bootstrap.png',
           title: 'Bootstrap'
         }, {
-          imgUrl: '../assets/images/icons/skills/angular.png',
+          imgUrl: 'assets/images/icons/skills/angular.png',
           title: 'Angular'
         }, {
-          imgUrl: '../assets/images/icons/skills/react.png',
+          imgUrl: 'assets/images/icons/skills/react.png',
           title: 'React'
         }, {
-          imgUrl: '../assets/images/icons/skills/node.png',
+          imgUrl: 'assets/images/icons/skills/node.png',
           title: 'Node'
         }, {
-          imgUrl: '../assets/images/icons/skills/python.png',
+          imgUrl: 'assets/images/icons/skills/python.png',
           title: 'Python'
         }, {
-          imgUrl: '../assets/images/icons/skills/ef.png',
+          imgUrl: 'assets/images/icons/skills/ef.png',
           title: 'Entity Framework'
         }, {
-          imgUrl: '../assets/images/icons/skills/dotnet.png',
+          imgUrl: 'assets/images/icons/skills/dotnet.png',
           title: '.Net'
         }],
         // list of tools items to loop through it
@@ -556,7 +556,7 @@
           imgUrl: 'https://via.placeholder.com/48',
           title: 'Webpack'
         }, {
-          imgUrl: 'https://via.placeholder.com/48',
+          imgUrl: 'assets/images/skills/git.png',
           title: 'Git (Github)'
         }, {
           imgUrl: 'https://via.placeholder.com/48',
