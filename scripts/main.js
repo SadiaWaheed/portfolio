@@ -509,41 +509,41 @@
         skillsType: '',
         // list of skills items to loop through it
         skillsItems: [{
-          imgUrl: 'https://via.placeholder.com/48',
+          imgUrl: '../assets/images/icons/skills/html5.png',
           title: 'HTML5'
         }, {
-          imgUrl: 'https://via.placeholder.com/48',
+          imgUrl: '../assets/images/icons/skills/css3.png',
           title: 'CSS3'
         }, {
-          imgUrl: 'https://via.placeholder.com/48',
+          imgUrl: '../assets/images/icons/skills/javascript.png',
           title: 'JavaScript'
         }, {
-          imgUrl: 'https://via.placeholder.com/48',
-          title: 'TypeScript'
+          imgUrl: '../assets/images/icons/skills/c-sharp.png',
+          title: 'C#'
         }, {
-          imgUrl: 'https://via.placeholder.com/48',
-          title: 'jQuery'
+          imgUrl: '../assets/images/icons/skills/sql.png',
+          title: 'SQL'
         }, {
-          imgUrl: 'https://via.placeholder.com/48',
+          imgUrl: '../assets/images/icons/skills/bootstrap.png',
           title: 'Bootstrap'
         }, {
-          imgUrl: 'https://via.placeholder.com/48',
+          imgUrl: '../assets/images/icons/skills/angular.png',
           title: 'Angular'
         }, {
-          imgUrl: 'https://via.placeholder.com/48',
+          imgUrl: '../assets/images/icons/skills/react.png',
           title: 'React'
         }, {
-          imgUrl: 'https://via.placeholder.com/48',
-          title: 'Vue'
+          imgUrl: '../assets/images/icons/skills/node.png',
+          title: 'Node'
         }, {
-          imgUrl: 'https://via.placeholder.com/48',
-          title: 'Firebase'
+          imgUrl: '../assets/images/icons/skills/python.png',
+          title: 'Python'
         }, {
-          imgUrl: 'https://via.placeholder.com/48',
-          title: 'PugJS'
+          imgUrl: '../assets/images/icons/skills/ef.png',
+          title: 'Entity Framework'
         }, {
-          imgUrl: 'https://via.placeholder.com/48',
-          title: 'SASS'
+          imgUrl: '../assets/images/icons/skills/dotnet.png',
+          title: '.Net'
         }],
         // list of tools items to loop through it
         toolsItems: [{
