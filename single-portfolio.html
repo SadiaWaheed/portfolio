@@ -179,7 +179,8 @@
                     <p>{{ getSinglePortfolioItem.desc.en }}</p>                    
                     <ul class="work-tools">
                       <li v-for="tool in getSinglePortfolioItem.tools" :key="tool">
-                        <a :href="'archive-portfolio.html?tax=tools&tools=' + tool">{{ tool }}</a>
+                        <a>{{ tool }}</a>
+                        <!-- :href="'archive-portfolio.html?tax=tools&tools=' + tool" -->
                       </li>
                     </ul>
                   </div>
