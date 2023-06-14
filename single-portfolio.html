@@ -65,16 +65,16 @@
             </div>
 
             <!-- nav links -->
-            <nav :class="{'menu-open': isNavMenuOpen}" ref="headerNav">
+             <nav :class="{'menu-open': isNavMenuOpen}" ref="headerNav"> 
 
               <!-- nav menu links -->
-              <ul class="nav-links">
+              <!-- <ul class="nav-links">
                 <li v-for="link in navLinks" :key="link.url">
                   <a :href="link.url" @click="closeNavMenu">
                     {{ link.title.en }}
                   </a>
                 </li>
-              </ul>
+              </ul> -->
 
               <!-- menu content in big devices (hidden in mobile/tablet) -->
               <div class="desktop-menu-content" tabindex="-1">
@@ -176,6 +176,11 @@
                       <a :href="'archive-portfolio.html?tax=cat&cat=' + getSinglePortfolioItem.category">{{ getSinglePortfolioItem.category }}</a>
                     </span>
                     <h2>{{ getSinglePortfolioItem.title.en }}</h2>
+                    <ul class="proj-links">
+                      <li v-for="link in getSinglePortfolioItem.projectLinks" :key="link.text">
+                        <a :href=`${link.link}` target="_blank">{{ link.text }}</a>
+                      </li>
+                    </ul>                 
                     <p>{{ getSinglePortfolioItem.desc.en }}</p>                    
                     <ul class="work-tools">
                       <li v-for="tool in getSinglePortfolioItem.tools" :key="tool">

@@ -559,7 +559,7 @@
           imgUrl: 'assets/images/icons/tools/pg-admin.png',
           title: 'PG Admin'
         }, {
-          imgUrl: 'assets/images/icons/tools/gihub.png',
+          imgUrl: 'assets/images/icons/tools/github.png',
           title: 'Git (Github)'
         }, {
           imgUrl: 'assets/images/icons/tools/npm.png',
@@ -574,13 +574,13 @@
           imgUrl: 'assets/images/icons/tools/git.png',
           title: 'Git'
         }, {
-          imgUrl: 'assets/images/icons/skills/postman.png',
+          imgUrl: 'assets/images/icons/tools/postman.png',
           title: 'Postman'
         }, {
-          imgUrl: 'assets/images/icons/skills/jira.png',
+          imgUrl: 'assets/images/icons/tools/Jira.png',
           title: 'Jira'
         }, {
-          imgUrl: 'assets/images/icons/skills/pycharm.png',
+          imgUrl: 'assets/images/icons/tools/pycharm.png',
           title: 'PyCharm'
         }],
         // list of experience items to loop through it
@@ -688,7 +688,7 @@
         // portfolio items per page
         itemsPerPage: 7,
         // portfolio items filter by type
-        filters: ['All', 'HTML', 'Angular', 'Vue'],
+        filters: ['All', '.Net', 'React', 'Documentation'],
         currentFilter: 'All',
         // portfolio archive name
         portfolioArchiveName: '',
@@ -696,54 +696,55 @@
         allPortfolioItems: [{
           id: 1,
           url: 'single-portfolio.html?id=1',
-          imgUrl: 'https://via.placeholder.com/400x400',
+          imgUrl: 'assets/images/projects/robofriends/robofriends-cover.png',
+          link:'https://sadiawaheed.github.io/robofriends/',
           title: {
-            en: 'Lorem Ipsum Dolor 1',
+            en: 'Robo Friends',
             ar: 'هنا عنوان المشروع 1'
           },
           date: {
-            en: 'April 2021',
+            en: 'May 2023',
             ar: 'أبريل 2021'
           },
           desc: {
-            en: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+            en: 'A starting out React project that uses Robo friends API to fetch random robot images. Alows only search options. The data displayed is hardcoded as the project does not use any databases. This peoject is to demonstrate basic react concepts.View Project: https://sadiawaheed.github.io/robofriends/',
             ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
           },
-          category: 'HTML',
-          tools: ['HTML', 'PugJS', 'CSS', 'SCSS', 'JavaScript', 'Gulp', 'Bootstrap', 'AJAX', 'Vue', 'Firebase'],
+          category: 'React',
+          tools: ['React', 'HTML', 'CSS', 'JavaScript', 'BootStrap', 'Robofriends'],
           screenshots: {
             img1: {
-              url: 'https://via.placeholder.com/355x200',
+              url: 'assets/images/projects/robofriends/header.jpg',
               caption: {
-                en: 'caption 5',
+                en: 'Header',
                 ar: 'تسمية توضيحية 5'
               }
             },
             img2: {
-              url: 'https://via.placeholder.com/330x460',
+              url: 'assets/images/projects/robofriends/robo-searchone.jpg',
               caption: {
-                en: 'caption 4',
+                en: 'Search one Robo Friend',
                 ar: 'تسمية توضيحية 4'
               }
             },
             img3: {
-              url: 'https://via.placeholder.com/300x225',
+              url: 'assets/images/projects/robofriends/robo-search.jpg',
               caption: {
-                en: 'caption 3',
+                en: 'Robo Search',
                 ar: 'تسمية توضيحية 3'
               }
             },
             img4: {
-              url: 'https://via.placeholder.com/300x225',
+              url: 'assets/images/projects/robofriends/robo-card.jpg',
               caption: {
-                en: 'caption 2',
+                en: 'Robo Card',
                 ar: 'تسمية توضيحية 2'
               }
             },
             img5: {
-              url: 'https://via.placeholder.com/300x225',
+              url: 'assets/images/projects/robofriends/front-page.jpg',
               caption: {
-                en: 'caption 1',
+                en: 'Front Page',
                 ar: 'تسمية توضيحية 1'
               }
             }
@@ -751,54 +752,55 @@
         }, {
           id: 2,
           url: 'single-portfolio.html?id=2',
-          imgUrl: 'https://via.placeholder.com/530x300',
+          imgUrl: 'assets/images/projects/ecomstore/ecomstore-cover.png',
+          link:'',
           title: {
-            en: 'Lorem Ipsum Dolor 2',
+            en: 'eComStore',
             ar: 'هنا عنوان المشروع 2'
           },
           date: {
-            en: 'April 2021',
+            en: 'September 2022',
             ar: 'أبريل 2021'
           },
           desc: {
-            en: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+            en: 'An E-comerce store built with .Net Core. There are two types of views: User and Admin. The user can view products, palce order, track order and make payments. The Admin can Insert, update and delete products, categories and companies. The Admin also approves, views and cancels orders. Users can register themselves while only and Admin can register another Admin. View Repository: https://github.com/SadiaWaheed/eComStore ',
             ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
           },
-          category: 'Angular',
-          tools: ['HTML', 'Slim', 'CSS', 'Less', 'JavaScript', 'TypeScript', 'TailwindCSS', 'AJAX', 'Angular', 'NodeJs', 'MongoDB'],
+          category: '.Net',
+          tools: ['C#', 'HTML', 'CSS', 'JavaScript', 'Razor', 'Entity Framework Core', 'BootStrap', 'MS SQL', 'Stripe Payment', '.Net Core', 'MVC', 'Rpository Pattern', 'Visual Studio','MS SQL Server'],
           screenshots: {
             img1: {
-              url: 'https://via.placeholder.com/355x200',
+              url: 'assets/images/projects/ecomstore/store.jpg',
               caption: {
-                en: 'caption 5',
+                en: 'Store Front View',
                 ar: 'تسمية توضيحية 5'
               }
             },
             img2: {
-              url: 'https://via.placeholder.com/330x460',
+              url: 'assets/images/projects/ecomstore/product-card.jpg',
               caption: {
-                en: 'caption 4',
+                en: 'Product Card',
                 ar: 'تسمية توضيحية 4'
               }
             },
             img3: {
-              url: 'https://via.placeholder.com/300x225',
+              url: 'assets/images/projects/ecomstore/shoping-cart.jpg',
               caption: {
-                en: 'caption 3',
+                en: 'Shopping Cart (User View)',
                 ar: 'تسمية توضيحية 3'
               }
             },
             img4: {
-              url: 'https://via.placeholder.com/300x225',
+              url: 'assets/images/projects/ecomstore/product-management.jpg',
               caption: {
-                en: 'caption 2',
+                en: 'Product Management Page (Admin View)',
                 ar: 'تسمية توضيحية 2'
               }
             },
             img5: {
-              url: 'https://via.placeholder.com/300x225',
+              url: 'assets/images/projects/ecomstore/product-details.jpg',
               caption: {
-                en: 'caption 1',
+                en: 'Product Details Page',
                 ar: 'تسمية توضيحية 1'
               }
             }
@@ -806,62 +808,64 @@
         }, {
           id: 3,
           url: 'single-portfolio.html?id=3',
-          imgUrl: 'https://via.placeholder.com/390x390',
+          imgUrl: 'assets/images/projects/smartbrain/SmartBrain-cover.png',
+          link:'',
           title: {
-            en: 'Lorem Ipsum Dolor 3',
+            en: 'Smart Brain',
             ar: 'هنا عنوان المشروع 3'
           },
           date: {
-            en: 'April 2021',
+            en: 'June 2023',
             ar: 'أبريل 2021'
           },
           desc: {
-            en: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+            en: 'A full stack web application that detects faces in images provided by the user through links. The application uses Clarify face-detection api to detect faces. There is also a database to store user data so that user can register and sign-in. The applicaiton also uses react parallex for animated background. View (link1 is api and link2 is frontend): [ samrt-brain-api.onrender.com ] [ smart-brain-f726.onrender.com ]',
             ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
           },
-          category: 'Vue',
-          tools: ['HTML', 'PugJS', 'CSS', 'SCSS', 'JavaScript', 'Gulp', 'Materialize', 'AJAX', 'Vue', 'Firebase'],
+          category: 'React',
+          tools: ['React', 'HTML', 'CSS', 'Visual Studio Code', 'JavaScript', 'Clarify', 'PostgreSQL', 'Node JS', 'Express', 'render','PG Admin'],
           screenshots: {
             img1: {
-              url: 'https://via.placeholder.com/355x200',
+              url: 'assets/images/projects/smartbrain/logo.jpg',
               caption: {
-                en: 'caption 5',
+                en: 'Application Logo',
                 ar: 'تسمية توضيحية 5'
               }
             },
             img2: {
-              url: 'https://via.placeholder.com/330x460',
+              url: 'assets/images/projects/smartbrain/Sign-in.jpg',
               caption: {
-                en: 'caption 4',
+                en: 'Sign In',
                 ar: 'تسمية توضيحية 4'
               }
             },
             img3: {
-              url: 'https://via.placeholder.com/300x225',
+              url: 'assets/images/projects/smartbrain/face-detection.jpg',
               caption: {
-                en: 'caption 3',
+                en: 'Face Detection',
                 ar: 'تسمية توضيحية 3'
               }
             },
             img4: {
-              url: 'https://via.placeholder.com/300x225',
+              url: 'assets/images/projects/smartbrain/App-page.jpeg',
               caption: {
-                en: 'caption 2',
+                en: 'After logged in before face detection',
                 ar: 'تسمية توضيحية 2'
               }
             },
             img5: {
-              url: 'https://via.placeholder.com/300x225',
+              url: 'assets/images/projects/smartbrain/register.jpg',
               caption: {
-                en: 'caption 1',
+                en: 'Register',
                 ar: 'تسمية توضيحية 1'
               }
             }
           }
-        }, {
+        }/* , {
           id: 4,
           url: 'single-portfolio.html?id=4',
           imgUrl: 'https://via.placeholder.com/340x510',
+          link:'',
           title: {
             en: 'Lorem Ipsum Dolor 4',
             ar: 'هنا عنوان المشروع 4'
@@ -917,6 +921,7 @@
           id: 5,
           url: 'single-portfolio.html?id=5',
           imgUrl: 'https://via.placeholder.com/380x215',
+          link:'',
           title: {
             en: 'Lorem Ipsum Dolor 5',
             ar: 'هنا عنوان المشروع 5'
@@ -972,6 +977,7 @@
           id: 6,
           url: 'single-portfolio.html?id=6',
           imgUrl: 'https://via.placeholder.com/400x300',
+          link:'',
           title: {
             en: 'Lorem Ipsum Dolor 6',
             ar: 'هنا عنوان المشروع 6'
@@ -1082,6 +1088,7 @@
           id: 8,
           url: 'single-portfolio.html?id=8',
           imgUrl: 'https://via.placeholder.com/340x340',
+          link:'',
           title: {
             en: 'Lorem Ipsum Dolor 8',
             ar: 'هنا عنوان المشروع 8'
@@ -1137,6 +1144,7 @@
           id: 9,
           url: 'single-portfolio.html?id=9',
           imgUrl: 'https://via.placeholder.com/300x375',
+          link:'',
           title: {
             en: 'Lorem Ipsum Dolor 9',
             ar: 'هنا عنوان المشروع 9'
@@ -1192,6 +1200,7 @@
           id: 10,
           url: 'single-portfolio.html?id=10',
           imgUrl: 'https://via.placeholder.com/350x200',
+          link:'',
           title: {
             en: 'Lorem Ipsum Dolor 10',
             ar: 'هنا عنوان المشروع 10'
@@ -1247,6 +1256,7 @@
           id: 11,
           url: 'single-portfolio.html?id=11',
           imgUrl: 'https://via.placeholder.com/400x300',
+          link:'',
           title: {
             en: 'Lorem Ipsum Dolor 11',
             ar: 'هنا عنوان المشروع 11'
@@ -1302,6 +1312,7 @@
           id: 12,
           url: 'single-portfolio.html?id=12',
           imgUrl: 'https://via.placeholder.com/300x280',
+          link:'',
           title: {
             en: 'Lorem Ipsum Dolor 12',
             ar: 'هنا عنوان المشروع 12'
@@ -1357,6 +1368,7 @@
           id: 13,
           url: 'single-portfolio.html?id=13',
           imgUrl: 'https://via.placeholder.com/300x270',
+          link:'',
           title: {
             en: 'Lorem Ipsum Dolor 13',
             ar: 'هنا عنوان المشروع 13'
@@ -1412,6 +1424,7 @@
           id: 14,
           url: 'single-portfolio.html?id=14',
           imgUrl: 'https://via.placeholder.com/375x500',
+          link:'',
           title: {
             en: 'Lorem Ipsum Dolor 14',
             ar: 'هنا عنوان المشروع 14'
@@ -1467,6 +1480,7 @@
           id: 15,
           url: 'single-portfolio.html?id=15',
           imgUrl: 'https://via.placeholder.com/375x240',
+          link:'',
           title: {
             en: 'Lorem Ipsum Dolor 15',
             ar: 'هنا عنوان المشروع 15'
@@ -1522,6 +1536,7 @@
           id: 16,
           url: 'single-portfolio.html?id=16',
           imgUrl: 'https://via.placeholder.com/570x400',
+          link:'',
           title: {
             en: 'Lorem Ipsum Dolor 16',
             ar: 'هنا عنوان المشروع 16'
@@ -1577,6 +1592,7 @@
           id: 17,
           url: 'single-portfolio.html?id=17',
           imgUrl: 'https://via.placeholder.com/375x300',
+          link:'',
           title: {
             en: 'Lorem Ipsum Dolor 17',
             ar: 'هنا عنوان المشروع 17'
@@ -1632,6 +1648,7 @@
           id: 18,
           url: 'single-portfolio.html?id=18',
           imgUrl: 'https://via.placeholder.com/350x500',
+          link:'',
           title: {
             en: 'Lorem Ipsum Dolor 18',
             ar: 'هنا عنوان المشروع 18'
@@ -1683,7 +1700,8 @@
               }
             }
           }
-        }].reverse(),
+        } */
+      ] ,//.reverse(),
         // viewed portfolio items
         portfolioItems: [],
         // list of testimonials items to loop through it
