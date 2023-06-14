@@ -45,7 +45,8 @@
         <div class="preloader-content">
           <div class="logo">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170 199">
-              <path d="M0.720001 8.91999V0.855993H58.32L169.488 190.648V199H112.176L0.720001 8.91999ZM114.768 73.144V0.855993H169.488V166.744L114.768 73.144ZM0.720001 32.824L55.44 126.424V199H0.720001V32.824Z" />
+              <path
+                d="M0.720001 8.91999V0.855993H58.32L169.488 190.648V199H112.176L0.720001 8.91999ZM114.768 73.144V0.855993H169.488V166.744L114.768 73.144ZM0.720001 32.824L55.44 126.424V199H0.720001V32.824Z" />
             </svg>
           </div>
           <div class="loading-bar">
@@ -188,10 +189,11 @@
               </a>
             </li>
             <li>
-                <a href="https://github.com/SadiaWaheed" target="_blank" rel="noreferrer" v-tooltip="{text: 'GitHub', dir: 'right'}">
-                  <i class="fa fa-github" aria-hidden="true"></i>
-                </a>
-              </li> 
+              <a href="https://github.com/SadiaWaheed" target="_blank" rel="noreferrer"
+                v-tooltip="{text: 'GitHub', dir: 'right'}">
+                <i class="fa fa-github" aria-hidden="true"></i>
+              </a>
+            </li>
             <li>
               <a href="https://www.linkedin.com/in/sadia-waheed/" target="_blank" rel="noreferrer"
                 v-tooltip="{text: 'LinkedIn', dir: 'right'}">
@@ -363,54 +365,53 @@
       <!-- end of skills section -->
 
       <!-- start of experience section -->
-      <!--  <div id="experience" class="experience-section section" tabindex="-1">
-          <div class="container">
-            <div class="section-content row">
+      <div id="experience" class="experience-section section" tabindex="-1">
+        <div class="container">
+          <div class="section-content row">
 
-              <--timeline -->
-      <!-- <div class="col-lg-6">
-                <div class="experience-timeline">
-                  <div class="timepath" ref="experienceTimepath">
+            <!-- timeline -->
+            <div class="col-lg-6">
+              <div class="experience-timeline">
+                <div class="timepath" ref="experienceTimepath">
+                  <span class="line"></span>
+                  <template v-for="line in experienceChunks">
+                    <span class="semicircle"></span>
                     <span class="line"></span>
-                    <template v-for="line in experienceChunks">
-                      <span class="semicircle"></span>
-                      <span class="line"></span>
-                    </template>
-                  </div>
+                  </template>
+                </div>
 
-                  <ul class="timeline-items">
-                    <li class="has-ultimate-tooltip" tabindex="0" v-for="item in experienceItems">
-                      <template v-if="Object.keys(item).length > 0">
-                        <h3>{{ item.date }}</h3>
-                        <div class="ultimate-tooltip">
-                          <h4 class="ultimate-tooltip-title">{{ item.companyName.en }}</h4>
-                          <h5 class="ultimate-tooltip-subtitle">{{ item.jobTitle.en }}</h5>
-                          <p>{{ item.desc.en }}</p>
-                        </div>
-                        <div class="ultimate-tooltip-arrow"></div>
-                      </template>
-                    </li>
-                  </ul>
-                </div>
+                <ul class="timeline-items">
+                  <li class="has-ultimate-tooltip" tabindex="0" v-for="item in experienceItems">
+                    <template v-if="Object.keys(item).length > 0">
+                      <h3>{{ item.date }}</h3>
+                      <div class="ultimate-tooltip">
+                        <h4 class="ultimate-tooltip-title">{{ item.companyName.en }}</h4>
+                        <h5 class="ultimate-tooltip-subtitle">{{ item.jobTitle.en }}</h5>
+                        <p>{{ item.desc.en }}</p>
+                      </div>
+                      <div class="ultimate-tooltip-arrow"></div>
+                    </template>
+                  </li>
+                </ul>
               </div>
- -->
-      <!-- text box -->
-      <!-- <div class="experience-text col-lg-6">
-                <div class="text-box-inline">
-                  <span class="subtitle">experience</span>
-                  <h2>
-                    {{ experienceYears }}+ Years of Experience
-                    <br>
-                    With Many Awards!
-                  </h2>
-                  <p>
-                    I have been developing sites and apps for {{ experienceYears }} years and i know for sure the main trends and directions of modern design, I have been a visionary and a reliable software engineering partner for world-class brands. You will get a decent result as you expect.
-                  </p>
-                </div>
+            </div>
+
+            <!-- text box -->
+            <div class="experience-text col-lg-6">
+              <div class="text-box-inline">
+                <span class="subtitle">experience</span>
+                <h2>
+                  Around {{ experienceYears }} Years of Experience
+                </h2>
+                <p>
+                  I have around {{ experienceYears }} years of work experience and I have worked on other projects other
+                  than my job projects. These projects can be seen in the portfolio section.  
+                </p>
               </div>
             </div>
           </div>
-        </div>  -->
+        </div>
+      </div>
       <!-- end of experience section -->
 
       <!-- start of portfolio section -->
@@ -430,7 +431,8 @@
                     Will Amaze You!
                   </h2>
                   <p>
-                    I develop web applications that serve for the long-term. My goal is to achieve as much perfection as possible and complete the projects with the best of my abilities.  
+                    I develop web applications that serve for the long-term. My goal is to achieve as much
+                    perfection as possible and complete the projects with the best of my abilities.
                   </p>
                   <ul class="works-filter">
                     <li v-for="filter in filters" :key="filter">
@@ -456,7 +458,7 @@
               </li>
               <!-- end items list -->
 
-             <!--  <li>
+              <!--  <li>
                 <button class="more" @click="getPortfolioItems">Load more works</button>
               </li> -->
             </ul>
