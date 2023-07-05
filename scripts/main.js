@@ -451,7 +451,7 @@
     data() {
       return {
         // the date my career started (change to yours)
-        careerStartDate: 2017,
+        careerStartDate: 2021,
         // the date copyright started (change to yours)
         copyrightStartDate: 2021,
         // for the template theme
@@ -585,104 +585,76 @@
         }],
         // list of experience items to loop through it
         experienceItems: [{
-          date: '2010',
+          date: '2015',
           companyName: {
-            en: 'Google Inc.',
+            en: 'Pakistan International Airlines',
             ar: 'شركة جوجل'
           },
           jobTitle: {
-            en: 'Front-End Developer',
+            en: 'Intern',
             ar: 'مطور الواجهة الأمامية'
           },
           desc: {
-            en: 'Monitored technical aspects of the front-end delivery for projects.',
+            en: 'Developed .NET forms application for domestic cargo management.',
             ar: 'مراقبة الجوانب الفنية لتطوير الواجهات الأمامية للمشاريع.'
           }
         }, {
-          date: '2012',
+          date: '2017',
           companyName: {
-            en: 'Facebook Inc.',
+            en: 'Sytems Limited',
             ar: 'شركة فيسبوك'
           },
           jobTitle: {
-            en: 'Full Stack Developer',
+            en: 'Associate Software Engineer',
             ar: 'مطوّر الويب المتكامل'
           },
           desc: {
-            en: 'Collaborate with creative and development teams on the execution of ideas.',
+            en: 'Developed new modules, and provided suport for product (SysHCM).',
             ar: 'تعاونت مع الفرق الإبداعية في تطوير وتنفيذ أفكار مبتكرة.'
-          }
-        }, {
-          date: '2014',
-          companyName: {
-            en: 'Envato Inc.',
-            ar: 'شركة انفاتو'
-          },
-          jobTitle: {
-            en: 'UI/UX Developer',
-            ar: 'مطور UI/UX'
-          },
-          desc: {
-            en: 'Converted Photoshop layouts to web pages using HTML, CSS, and JavaScript.',
-            ar: 'تم تحويل تخطيطات Photoshop إلى صفحات ويب باستخدام HTML و CSS و JavaScript.'
-          }
-        }, {
-          date: '2016',
-          companyName: {
-            en: 'Google Inc.',
-            ar: 'شركة جوجل'
-          },
-          jobTitle: {
-            en: 'Front-End Developer',
-            ar: 'مطور الواجهة الأمامية'
-          },
-          desc: {
-            en: 'Monitored technical aspects of the front-end delivery for projects.',
-            ar: 'مراقبة الجوانب الفنية لتطوير الواجهات الأمامية للمشاريع.'
           }
         }, {
           date: '2018',
           companyName: {
-            en: 'Facebook Inc.',
-            ar: 'شركة فيسبوك'
+            en: 'Sytems Limited',
+            ar: 'شركة انفاتو'
           },
           jobTitle: {
-            en: 'Full Stack Developer',
-            ar: 'مطوّر الويب المتكامل'
+            en: 'Software Engineer',
+            ar: 'مطور UI/UX'
           },
           desc: {
-            en: 'Collaborate with creative and development teams on the execution of ideas.',
-            ar: 'تعاونت مع الفرق الإبداعية في تطوير وتنفيذ أفكار مبتكرة.'
+            en: 'Developed new modules, and provided suport for product (SysHCM) along with training juniors.',
+            ar: 'تم تحويل تخطيطات Photoshop إلى صفحات ويب باستخدام HTML و CSS و JavaScript.'
           }
         }, {
           date: '2020',
           companyName: {
-            en: 'Google Inc.',
+            en: 'Interns Pakistan Sparks program (Remote)',
             ar: 'شركة جوجل'
           },
           jobTitle: {
-            en: 'Front-End Developer',
+            en: 'Intern',
             ar: 'مطور الواجهة الأمامية'
           },
           desc: {
-            en: 'Monitored technical aspects of the front-end delivery for projects.',
+            en: 'Worked with basic frontend and wordpress applications.',
             ar: 'مراقبة الجوانب الفنية لتطوير الواجهات الأمامية للمشاريع.'
           }
         }, {
-          date: '2022',
+          date: '2023',
           companyName: {
-            en: 'Facebook Inc.',
+            en: 'Interns Pakistan Interns program (Remote)',
             ar: 'شركة فيسبوك'
           },
           jobTitle: {
-            en: 'Full Stack Developer',
+            en: 'Intern',
             ar: 'مطوّر الويب المتكامل'
           },
           desc: {
-            en: 'Collaborate with creative and development teams on the execution of ideas.',
+            en: 'Worked with basic frontend and react applications.',
             ar: 'تعاونت مع الفرق الإبداعية في تطوير وتنفيذ أفكار مبتكرة.'
           }
-        }, {}, {}],
+        }],
         // current page of portfolio items
         portfolioItemsPage: 1,
         // portfolio items per page
@@ -697,7 +669,16 @@
           id: 1,
           url: 'single-portfolio.html?id=1',
           imgUrl: 'assets/images/projects/robofriends/robofriends-cover.png',
-          link:'https://sadiawaheed.github.io/robofriends/',
+          projectLinks:[{
+            text:'Website',
+            link:'https://sadiawaheed.github.io/robofriends/'
+          },{
+            text:'Repository',
+            link:'https://github.com/SadiaWaheed/robofriends'
+          },{
+            text:'Hooks Repository',
+            link:'https://github.com/SadiaWaheed/robofriends-hooks'
+          }],
           title: {
             en: 'Robo Friends',
             ar: 'هنا عنوان المشروع 1'
@@ -707,7 +688,7 @@
             ar: 'أبريل 2021'
           },
           desc: {
-            en: 'A starting out React project that uses Robo friends API to fetch random robot images. Alows only search options. The data displayed is hardcoded as the project does not use any databases. This peoject is to demonstrate basic react concepts.View Project: https://sadiawaheed.github.io/robofriends/',
+            en: 'A starting out React project that uses Robo friends API to fetch random robot images. Allows only search options. The data displayed is hardcoded as the project does not use any databases. This project is to demonstrate basic react concepts.',
             ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
           },
           category: 'React',
@@ -753,7 +734,10 @@
           id: 2,
           url: 'single-portfolio.html?id=2',
           imgUrl: 'assets/images/projects/ecomstore/ecomstore-cover.png',
-          link:'',
+          projectLinks:[{
+            text:'Repository',
+            link:'https://github.com/SadiaWaheed/eComStore'
+          }],
           title: {
             en: 'eComStore',
             ar: 'هنا عنوان المشروع 2'
@@ -763,7 +747,7 @@
             ar: 'أبريل 2021'
           },
           desc: {
-            en: 'An E-comerce store built with .Net Core. There are two types of views: User and Admin. The user can view products, palce order, track order and make payments. The Admin can Insert, update and delete products, categories and companies. The Admin also approves, views and cancels orders. Users can register themselves while only and Admin can register another Admin. View Repository: https://github.com/SadiaWaheed/eComStore ',
+            en: 'An E-comerce store built with .Net Core. There are two types of views: User and Admin. The user can view products, palce order, track order and make payments. The Admin can Insert, update and delete products, categories and companies. The Admin also approves, views and cancels orders. Users can register themselves while only and Admin can register another Admin.',
             ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
           },
           category: '.Net',
@@ -809,7 +793,16 @@
           id: 3,
           url: 'single-portfolio.html?id=3',
           imgUrl: 'assets/images/projects/smartbrain/SmartBrain-cover.png',
-          link:'',
+          projectLinks:[{
+            text:'Website',
+            link:'https://smart-brain-f726.onrender.com/'
+          },{
+            text:'Project Repository',
+            link:'https://github.com/SadiaWaheed/smartbrain/'
+          },{
+            text:'API Repository',
+            link:'https://github.com/SadiaWaheed/smartbrain-api/'
+          }],
           title: {
             en: 'Smart Brain',
             ar: 'هنا عنوان المشروع 3'
@@ -819,7 +812,7 @@
             ar: 'أبريل 2021'
           },
           desc: {
-            en: 'A full stack web application that detects faces in images provided by the user through links. The application uses Clarify face-detection api to detect faces. There is also a database to store user data so that user can register and sign-in. The applicaiton also uses react parallex for animated background. View (link1 is api and link2 is frontend): [ samrt-brain-api.onrender.com ] [ smart-brain-f726.onrender.com ]',
+            en: 'A full stack web application that detects faces in images provided by the user through links. The application uses Clarify face-detection API to detect faces. There is also a database to store user data so that user can register and sign-in. The applicaiton also uses react parallex for animated background.',
             ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
           },
           category: 'React',
@@ -861,33 +854,36 @@
               }
             }
           }
-        }/* , {
+        }, {
           id: 4,
           url: 'single-portfolio.html?id=4',
-          imgUrl: 'https://via.placeholder.com/340x510',
-          link:'',
+          imgUrl: 'assets/images/projects/dabble/dabble-cover.png',//https://via.placeholder.com/340x510
+          projectLinks:[{
+            text:'GitHub',
+            link:'https://github.com/SadiaWaheed/Dabble'
+          }],
           title: {
-            en: 'Lorem Ipsum Dolor 4',
+            en: 'Dabble',
             ar: 'هنا عنوان المشروع 4'
           },
           date: {
-            en: 'April 2021',
+            en: 'July 2023',
             ar: 'أبريل 2021'
           },
           desc: {
-            en: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+            en: 'Dabble is a sample .NET Core project with front-end in Agular and backend in C#. It is a basic social networking site. The project is not complete yet and can be viewed on git hub. It used sqLite database with Entity Framework Core.',
             ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
           },
           category: 'HTML',
-          tools: ['HTML', 'Slim', 'CSS', 'Less', 'JavaScript', 'TypeScript', 'TailwindCSS', 'AJAX', 'Angular', 'NodeJs', 'MongoDB'],
+          tools: ['HTML', 'Angular', 'CSS', 'C#', 'JavaScript', 'sqLite', 'Visual Studio Code', 'Entity Framework Core', 'BootStrap', '.Net Core'],
           screenshots: {
             img1: {
-              url: 'https://via.placeholder.com/355x200',
+              url: 'assets/images/projects/dabble/coming-soon.png',
               caption: {
-                en: 'caption 5',
+                en: 'coming soon',
                 ar: 'تسمية توضيحية 5'
               }
-            },
+            }/* ,https://via.placeholder.com/355x200
             img2: {
               url: 'https://via.placeholder.com/330x460',
               caption: {
@@ -915,13 +911,16 @@
                 en: 'caption 1',
                 ar: 'تسمية توضيحية 1'
               }
-            }
+            } */
           }
-        }, {
+        }/*, {
           id: 5,
           url: 'single-portfolio.html?id=5',
           imgUrl: 'https://via.placeholder.com/380x215',
-          link:'',
+          projectLinks:[{
+            text:'Website',
+            link:'https://smart-brain-f726.onrender.com/'
+          }],
           title: {
             en: 'Lorem Ipsum Dolor 5',
             ar: 'هنا عنوان المشروع 5'
@@ -977,7 +976,10 @@
           id: 6,
           url: 'single-portfolio.html?id=6',
           imgUrl: 'https://via.placeholder.com/400x300',
-          link:'',
+          projectLinks:[{
+            text:'Website',
+            link:'https://smart-brain-f726.onrender.com/'
+          }],
           title: {
             en: 'Lorem Ipsum Dolor 6',
             ar: 'هنا عنوان المشروع 6'
@@ -1033,6 +1035,10 @@
           id: 7,
           url: 'single-portfolio.html?id=7',
           imgUrl: 'https://via.placeholder.com/380x215',
+          projectLinks:[{
+            text:'Website',
+            link:'https://smart-brain-f726.onrender.com/'
+          }],
           title: {
             en: 'Lorem Ipsum Dolor 7',
             ar: 'هنا عنوان المشروع 7'
@@ -1088,7 +1094,10 @@
           id: 8,
           url: 'single-portfolio.html?id=8',
           imgUrl: 'https://via.placeholder.com/340x340',
-          link:'',
+          projectLinks:[{
+            text:'Website',
+            link:'https://smart-brain-f726.onrender.com/'
+          }],
           title: {
             en: 'Lorem Ipsum Dolor 8',
             ar: 'هنا عنوان المشروع 8'
@@ -1144,7 +1153,10 @@
           id: 9,
           url: 'single-portfolio.html?id=9',
           imgUrl: 'https://via.placeholder.com/300x375',
-          link:'',
+          projectLinks:[{
+            text:'Website',
+            link:'https://smart-brain-f726.onrender.com/'
+          }],
           title: {
             en: 'Lorem Ipsum Dolor 9',
             ar: 'هنا عنوان المشروع 9'
@@ -1196,67 +1208,82 @@
               }
             }
           }
-        }, {
+        }*/, {
           id: 10,
           url: 'single-portfolio.html?id=10',
-          imgUrl: 'https://via.placeholder.com/350x200',
-          link:'',
+          imgUrl: 'assets/images/projects/creativecrafts/creativeCreafts-cover.png',
+          projectLinks:[{
+            text:'Proposal Document',
+            link:'https://docs.google.com/document/d/1Fs2LN8HH4xRbD4MzK4ULSZl5qxCuOMpZ/edit?usp=drive_link&ouid=107073848110093932011&rtpof=true&sd=true'
+          },{
+            text:'Vision & Scope Document',
+            link:'https://docs.google.com/document/d/18a6TUjrf_grpkthqOdc6wGvKORFV2uhH/edit?usp=drive_link&ouid=107073848110093932011&rtpof=true&sd=true'
+          },{
+            text:'Use-Case Document',
+            link:'https://docs.google.com/document/d/1e78ztt6hOO-1o4OywiS3TVq9jsSRxZfE/edit?usp=drive_link&ouid=107073848110093932011&rtpof=true&sd=true'
+          },{
+            text:'SRS Document',
+            link:'https://docs.google.com/document/d/1Cyhql-XhNU6Yyv7EMD2BPZVGdFPTu8aS/edit?usp=drive_link&ouid=107073848110093932011&rtpof=true&sd=true'
+          }],
           title: {
-            en: 'Lorem Ipsum Dolor 10',
+            en: 'Creative Crafts',
             ar: 'هنا عنوان المشروع 10'
           },
           date: {
-            en: 'April 2021',
+            en: 'December 2014',
             ar: 'أبريل 2021'
           },
           desc: {
-            en: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+            en: 'An eComerce web application documentation. From project proposal to complete project analysis and design documentation. The project documentation covers the manual business transactions and details and their mapping onto an automated project.',
             ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
           },
-          category: 'HTML',
-          tools: ['HTML', 'Slim', 'CSS', 'Less', 'JavaScript', 'TypeScript', 'Bootstrap', 'AJAX', 'Angular', 'NodeJs', 'MongoDB'],
+          category: 'Documentation',
+          tools: ['Microsoft Word', 'Enterprise Architect'],
           screenshots: {
             img1: {
-              url: 'https://via.placeholder.com/355x200',
+              url: 'assets/images/projects/creativecrafts/entity-relationships.jpg',
               caption: {
-                en: 'caption 5',
+                en: 'Entity Relationships',
                 ar: 'تسمية توضيحية 5'
               }
             },
             img2: {
-              url: 'https://via.placeholder.com/330x460',
+              url: 'assets/images/projects/creativecrafts/usecase-diagram.jpg',
               caption: {
-                en: 'caption 4',
+                en: 'Use Case Diagram',
                 ar: 'تسمية توضيحية 4'
               }
             },
             img3: {
-              url: 'https://via.placeholder.com/300x225',
+              url: 'assets/images/projects/creativecrafts/usecase.jpg',
               caption: {
-                en: 'caption 3',
+                en: 'Authentication Usecase',
                 ar: 'تسمية توضيحية 3'
               }
-            },
+            } ,
             img4: {
-              url: 'https://via.placeholder.com/300x225',
+              url: 'assets/images/projects/creativecrafts/srs.jpg',
               caption: {
-                en: 'caption 2',
+                en: 'Software Requirement Specifications',
                 ar: 'تسمية توضيحية 2'
               }
-            },
+            },/*
             img5: {
               url: 'https://via.placeholder.com/300x225',
               caption: {
                 en: 'caption 1',
                 ar: 'تسمية توضيحية 1'
               }
-            }
+            } */
           }
-        }, {
+        }/*, {
           id: 11,
           url: 'single-portfolio.html?id=11',
           imgUrl: 'https://via.placeholder.com/400x300',
-          link:'',
+          projectLinks:[{
+            text:'Website',
+            link:'https://smart-brain-f726.onrender.com/'
+          }],
           title: {
             en: 'Lorem Ipsum Dolor 11',
             ar: 'هنا عنوان المشروع 11'
@@ -1308,47 +1335,50 @@
               }
             }
           }
-        }, {
+        }*/, {
           id: 12,
           url: 'single-portfolio.html?id=12',
-          imgUrl: 'https://via.placeholder.com/300x280',
-          link:'',
+          imgUrl: 'assets/images/projects/ahmed-traders/at-cover.png',
+          projectLinks:[{
+            text:'View Documentation',
+            link:'https://docs.google.com/document/d/1BBastc-qfclcI-CSXm508DhihXtYeYng/edit?usp=drive_link&ouid=107073848110093932011&rtpof=true&sd=true'
+          }],
           title: {
-            en: 'Lorem Ipsum Dolor 12',
+            en: 'Ahmed Traders',
             ar: 'هنا عنوان المشروع 12'
           },
           date: {
-            en: 'April 2021',
+            en: 'January 2014',
             ar: 'أبريل 2021'
           },
           desc: {
-            en: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+            en: 'Under the requirement of our course Introduction to Software Engineering, in the third semester of our Bachelors in Software Engineering we are to develop a Database Management System for the Company Ahmed Traders. The company was established in 2005. It basically deals with wall paints and all related products making homes and places look clean, beautiful and appealing. The company currently has a manual system.Our basic aim was to develop Software that eases recording and calculation of data to help them resolve problems they are facing in their current manual system. For this purpose a thorough analysis and comprehensive design had to be produced. A complete analysis of the problem was done, an automated design was laid down in order to produce better results and to support the staff with the ease of work.',
             ar: 'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.'
           },
-          category: 'Angular',
-          tools: ['HTML', 'Slim', 'CSS', 'Less', 'JavaScript', 'TypeScript', 'Materialize', 'AJAX', 'Vue', 'NodeJs', 'MongoDB'],
+          category: 'Documentation',
+          tools: ['Microsoft Word', 'Microsoft Visio'],
           screenshots: {
             img1: {
-              url: 'https://via.placeholder.com/355x200',
+              url: 'assets/images/projects/ahmed-traders/login.jpg',
               caption: {
-                en: 'caption 5',
+                en: 'Login',
                 ar: 'تسمية توضيحية 5'
               }
             },
             img2: {
-              url: 'https://via.placeholder.com/330x460',
+              url: 'assets/images/projects/ahmed-traders/class-diagram.jpg',
               caption: {
-                en: 'caption 4',
+                en: 'Class Diagram',
                 ar: 'تسمية توضيحية 4'
               }
             },
             img3: {
-              url: 'https://via.placeholder.com/300x225',
+              url: 'assets/images/projects/ahmed-traders/database-diagram.jpg',
               caption: {
-                en: 'caption 3',
+                en: 'Database Diagram',
                 ar: 'تسمية توضيحية 3'
               }
-            },
+            }/* ,
             img4: {
               url: 'https://via.placeholder.com/300x225',
               caption: {
@@ -1362,13 +1392,16 @@
                 en: 'caption 1',
                 ar: 'تسمية توضيحية 1'
               }
-            }
+            } */
           }
-        }, {
+        }/*, {
           id: 13,
           url: 'single-portfolio.html?id=13',
           imgUrl: 'https://via.placeholder.com/300x270',
-          link:'',
+          projectLinks:[{
+            text:'Website',
+            link:'https://smart-brain-f726.onrender.com/'
+          }],
           title: {
             en: 'Lorem Ipsum Dolor 13',
             ar: 'هنا عنوان المشروع 13'
@@ -1424,7 +1457,10 @@
           id: 14,
           url: 'single-portfolio.html?id=14',
           imgUrl: 'https://via.placeholder.com/375x500',
-          link:'',
+          projectLinks:[{
+            text:'Website',
+            link:'https://smart-brain-f726.onrender.com/'
+          }],
           title: {
             en: 'Lorem Ipsum Dolor 14',
             ar: 'هنا عنوان المشروع 14'
@@ -1480,7 +1516,10 @@
           id: 15,
           url: 'single-portfolio.html?id=15',
           imgUrl: 'https://via.placeholder.com/375x240',
-          link:'',
+          projectLinks:[{
+            text:'Website',
+            link:'https://smart-brain-f726.onrender.com/'
+          }],
           title: {
             en: 'Lorem Ipsum Dolor 15',
             ar: 'هنا عنوان المشروع 15'
@@ -1536,7 +1575,10 @@
           id: 16,
           url: 'single-portfolio.html?id=16',
           imgUrl: 'https://via.placeholder.com/570x400',
-          link:'',
+          projectLinks:[{
+            text:'Website',
+            link:'https://smart-brain-f726.onrender.com/'
+          }],
           title: {
             en: 'Lorem Ipsum Dolor 16',
             ar: 'هنا عنوان المشروع 16'
@@ -1592,7 +1634,10 @@
           id: 17,
           url: 'single-portfolio.html?id=17',
           imgUrl: 'https://via.placeholder.com/375x300',
-          link:'',
+          projectLinks:[{
+            text:'Website',
+            link:'https://smart-brain-f726.onrender.com/'
+          }],
           title: {
             en: 'Lorem Ipsum Dolor 17',
             ar: 'هنا عنوان المشروع 17'
@@ -1648,7 +1693,10 @@
           id: 18,
           url: 'single-portfolio.html?id=18',
           imgUrl: 'https://via.placeholder.com/350x500',
-          link:'',
+          projectLinks:[{
+            text:'Website',
+            link:'https://smart-brain-f726.onrender.com/'
+          }],
           title: {
             en: 'Lorem Ipsum Dolor 18',
             ar: 'هنا عنوان المشروع 18'
@@ -1703,7 +1751,51 @@
         } */
       ] ,//.reverse(),
         // viewed portfolio items
-        portfolioItems: [],
+        portfolioItems: [],          
+        // list of certification items to loop through it
+       /*  allCertificationItems:[{
+          id:1,
+          title:{
+            en:"The Complete ASP.NET MVC 5 Course",
+            ar:""
+          },
+          IssueOrg:{
+            en:"Udemy",
+            ar:""
+          },
+          issueDate:"June 2021",
+          credId:"UC-673d8eca-137d-42e8-bf3f-e9624a4c7e80",
+          credURL:"https://www.udemy.com/certificate/UC-673d8eca-137d-42e8-bf3f-e9624a4c7e80/",
+          skills: ["C#", "Programming Languages","Git","HTML5",".NET Framework", "SQL Database"],
+        },{
+          id:2,
+          title:{
+            en:"Complete Guide to ASP.NET Core MVC (.NET 6)",
+            ar:""
+          },
+          IssueOrg:{
+            en:"Udemy",
+            ar:""
+          },
+          issueDate:"September 2022",
+          credId:"UC-d5cf3c6f-1bac-4a6c-aa67-c8541e60631c",
+          credURL:"https://udemy-certificate.s3.amazonaws.com/pdf/UC-d5cf3c6f-1bac-4a6c-aa67-c8541e60631c.pdf",
+          skills: ['ASP.NET Core','Entity Framework (EF) Core','HTML','Software Design','Design Patterns','Programming Languages','Entity Framework','JSON','REST APIs','Version Control Tools', 'Git' ,' Model-View-Controller(MVC)','TypeScript','.NET Core', 'Web Application Development' , 'SQL Database'],
+        },{
+          id:3,
+          title:{
+            en:"The Complete Web Developer in 2023: Zero to Mastery",
+            ar:""
+          },
+          IssueOrg:{
+            en:"Udemy",
+            ar:""
+          },
+          issueDate:"June 2023",
+          credId:"UC-871ff761-0ff4-4b8e-a3ca-e1241793f7b5",
+          credURL:"https://www.udemy.com/certificate/UC-871ff761-0ff4-4b8e-a3ca-e1241793f7b5/",
+          skills: ['React','PostgreSQL','Version Control Tools' , 'Express.js' , 'Node.js'],
+        },].reverse(), */
         // list of testimonials items to loop through it
         testimonialsItems: [{
           imgUrl: 'https://via.placeholder.com/200',
