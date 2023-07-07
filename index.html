@@ -465,7 +465,48 @@
       </div>
       <!-- end of portfolio section -->
 
-      
+      <!-- start of certification section -->
+      <div id="certification" class="certification-section section">
+        <div class="section-content">
+          <div class="container">
+            <!-- certification items -->
+            <ul class="certification-items has-works" ref="certificationItems" data-no-works-msg="No works to load">
+              <li>
+                <!-- text box -->
+                <div class="text-box-inline">
+                  <span class="subtitle">my learning</span>
+                  <h2>
+                    Courses & Cerifications
+                  </h2>
+                  <p>
+                    Following are the licenses, certifications and courses that I have completed.
+                  </p>
+                </div>
+              </li>
+              <li class="certification-item col-sm-12 col-md-12" v-for="cert in filteredCertificationItems">              
+                <div class="item-details">
+                  <a :href="cert.credURL" target="_blank">
+                    <div class="icon">
+                      <img :src="cert.imgUrl" :alt="cert.title.en">
+                    </div>
+                    <div class="text">
+                      <h6>{{cert.title.en}}</h6>
+                      <p><strong>{{cert.IssueOrg.en}} - {{cert.issueDate}}</strong></p>
+                      <strong>Credential ID:</strong>
+                      <p>{{cert.credId}}</p>
+                      <strong>Skills: </strong>
+                      <ul class="work-tools">
+                        <li v-for="skill in cert.skills" :key="skill"> {{skill}},</li>
+                      </ul>
+                    </div>
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- end of certification section -->
 
       <!-- start of testimonials section -->
       <!--  <div id="testimonials" class="testimonials-section section" tabindex="-1" ref="testimonialsSection">
